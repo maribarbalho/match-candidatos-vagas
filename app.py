@@ -25,6 +25,15 @@ except ImportError:  # Space do Hugging Face (arquivos na raiz)
     from features import termos_em_comum  # type: ignore
 
 
+try:  # Hugging Face Spaces (ZeroGPU, padrão do plano gratuito para apps Gradio)
+    import spaces
+
+    zerogpu = spaces.GPU(duration=10)
+except ImportError:  # execução local: o decorador não faz nada
+    def zerogpu(fn):
+        return fn
+
+
 def arquivo(*partes: str) -> Path:
     """Procura o artefato no layout do repositório e, se não existir, na raiz (layout do Space)."""
     p = ROOT.joinpath(*partes)
@@ -102,6 +111,7 @@ def fig_contrato():
     return style(fig, 360, False)
 
 
+@zerogpu
 def avaliar(vaga: str, cv: str) -> str:
     if not vaga.strip() or not cv.strip():
         return "<p class='muted'>Preencha a vaga e o currículo.</p>"
@@ -202,7 +212,6 @@ with gr.Blocks(title="Match candidato × vaga · Decision") as demo:
             bt = gr.Button("Calcular aderência", variant="primary")
             out = gr.HTML()
             bt.click(avaliar, [vaga, cv], out)
-            demo.load(avaliar, [vaga, cv], out)
         with gr.Tab("Método"):
             gr.Markdown(
                 "**Problema.** A Decision prospecta dezenas de candidatos por vaga e entrevista sob pressão de prazo. Onde a IA "
