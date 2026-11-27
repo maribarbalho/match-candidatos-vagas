@@ -1,0 +1,318 @@
+{
+  "prospects": 53759,
+  "vagas_com_prospects": 11279,
+  "vagas_total": 14081,
+  "candidatos_unicos": 29405,
+  "contratados": 3205,
+  "desistencias": 2986,
+  "funil_alcancou": {
+    "1. Inscrito": 50773,
+    "2. Triagem RH": 26772,
+    "3. Encaminhado ao cliente": 24632,
+    "4. Entrevistas": 7745,
+    "5. Contratado": 3205
+  },
+  "situacoes": [
+    {
+      "situacao": "Prospect",
+      "prospects": 20021
+    },
+    {
+      "situacao": "Encaminhado ao Requisitante",
+      "prospects": 16122
+    },
+    {
+      "situacao": "Inscrito",
+      "prospects": 3980
+    },
+    {
+      "situacao": "Não Aprovado pelo Cliente",
+      "prospects": 3492
+    },
+    {
+      "situacao": "Contratado pela Decision",
+      "prospects": 2758
+    },
+    {
+      "situacao": "Desistiu",
+      "prospects": 2349
+    },
+    {
+      "situacao": "Não Aprovado pelo RH",
+      "prospects": 1765
+    },
+    {
+      "situacao": "Não Aprovado pelo Requisitante",
+      "prospects": 765
+    },
+    {
+      "situacao": "Entrevista Técnica",
+      "prospects": 579
+    },
+    {
+      "situacao": "Sem interesse nesta vaga",
+      "prospects": 576
+    },
+    {
+      "situacao": "Entrevista com Cliente",
+      "prospects": 469
+    },
+    {
+      "situacao": "Em avaliação pelo RH",
+      "prospects": 375
+    },
+    {
+      "situacao": "Contratado como Hunting",
+      "prospects": 226
+    },
+    {
+      "situacao": "Aprovado",
+      "prospects": 209
+    },
+    {
+      "situacao": "Desistiu da Contratação",
+      "prospects": 59
+    },
+    {
+      "situacao": "Documentação PJ",
+      "prospects": 4
+    },
+    {
+      "situacao": "Documentação CLT",
+      "prospects": 3
+    },
+    {
+      "situacao": "Recusado",
+      "prospects": 2
+    },
+    {
+      "situacao": "Documentação Cooperado",
+      "prospects": 2
+    },
+    {
+      "situacao": "Encaminhar Proposta",
+      "prospects": 2
+    },
+    {
+      "situacao": "Proposta Aceita",
+      "prospects": 1
+    }
+  ],
+  "vagas_com_contratacao_pct": 0.2327,
+  "prospects_por_vaga_mediana": 3.0,
+  "prospects_por_contratacao": 16.8,
+  "dias_ate_contratacao": {
+    "mediana": 9.0,
+    "p25": 0.0,
+    "p75": 20.0,
+    "n": 3203
+  },
+  "por_nivel": [
+    {
+      "nivel_profissional": "Assistente",
+      "prospects": 764,
+      "contratados": 169,
+      "desistencias": 41,
+      "taxa_contratacao": 0.2212,
+      "taxa_desistencia": 0.0537
+    },
+    {
+      "nivel_profissional": "Júnior",
+      "prospects": 1984,
+      "contratados": 365,
+      "desistencias": 101,
+      "taxa_contratacao": 0.184,
+      "taxa_desistencia": 0.0509
+    },
+    {
+      "nivel_profissional": "Especialista",
+      "prospects": 1124,
+      "contratados": 95,
+      "desistencias": 64,
+      "taxa_contratacao": 0.0845,
+      "taxa_desistencia": 0.0569
+    },
+    {
+      "nivel_profissional": "Pleno",
+      "prospects": 9852,
+      "contratados": 585,
+      "desistencias": 605,
+      "taxa_contratacao": 0.0594,
+      "taxa_desistencia": 0.0614
+    },
+    {
+      "nivel_profissional": "Sênior",
+      "prospects": 20978,
+      "contratados": 1226,
+      "desistencias": 1227,
+      "taxa_contratacao": 0.0584,
+      "taxa_desistencia": 0.0585
+    },
+    {
+      "nivel_profissional": "Gerente",
+      "prospects": 586,
+      "contratados": 25,
+      "desistencias": 28,
+      "taxa_contratacao": 0.0427,
+      "taxa_desistencia": 0.0478
+    },
+    {
+      "nivel_profissional": "Analista",
+      "prospects": 17887,
+      "contratados": 709,
+      "desistencias": 892,
+      "taxa_contratacao": 0.0396,
+      "taxa_desistencia": 0.0499
+    }
+  ],
+  "por_contratacao": [
+    {
+      "tipo_contratacao": "CLT Cotas",
+      "prospects": 1200,
+      "contratados": 231,
+      "desistencias": 85,
+      "taxa_contratacao": 0.1925,
+      "taxa_desistencia": 0.0708
+    },
+    {
+      "tipo_contratacao": "CLT Full, Cooperado, PJ/Autônomo",
+      "prospects": 390,
+      "contratados": 53,
+      "desistencias": 18,
+      "taxa_contratacao": 0.1359,
+      "taxa_desistencia": 0.0462
+    },
+    {
+      "tipo_contratacao": "Cooperado",
+      "prospects": 2896,
+      "contratados": 385,
+      "desistencias": 194,
+      "taxa_contratacao": 0.1329,
+      "taxa_desistencia": 0.067
+    },
+    {
+      "tipo_contratacao": "CLT Full",
+      "prospects": 9382,
+      "contratados": 1197,
+      "desistencias": 490,
+      "taxa_contratacao": 0.1276,
+      "taxa_desistencia": 0.0522
+    },
+    {
+      "tipo_contratacao": "Cooperado, PJ/Autônomo",
+      "prospects": 778,
+      "contratados": 50,
+      "desistencias": 47,
+      "taxa_contratacao": 0.0643,
+      "taxa_desistencia": 0.0604
+    },
+    {
+      "tipo_contratacao": "PJ/Autônomo, Cooperado",
+      "prospects": 580,
+      "contratados": 31,
+      "desistencias": 60,
+      "taxa_contratacao": 0.0534,
+      "taxa_desistencia": 0.1034
+    },
+    {
+      "tipo_contratacao": "Hunting",
+      "prospects": 6098,
+      "contratados": 204,
+      "desistencias": 385,
+      "taxa_contratacao": 0.0335,
+      "taxa_desistencia": 0.0631
+    },
+    {
+      "tipo_contratacao": "PJ/Autônomo",
+      "prospects": 18624,
+      "contratados": 565,
+      "desistencias": 952,
+      "taxa_contratacao": 0.0303,
+      "taxa_desistencia": 0.0511
+    },
+    {
+      "tipo_contratacao": "PJ/Autônomo, CLT Full",
+      "prospects": 4773,
+      "contratados": 105,
+      "desistencias": 243,
+      "taxa_contratacao": 0.022,
+      "taxa_desistencia": 0.0509
+    },
+    {
+      "tipo_contratacao": "CLT Full, PJ/Autônomo",
+      "prospects": 6279,
+      "contratados": 126,
+      "desistencias": 301,
+      "taxa_contratacao": 0.0201,
+      "taxa_desistencia": 0.0479
+    }
+  ],
+  "por_sap": [
+    {
+      "sap": "Vaga não SAP",
+      "prospects": 51078,
+      "contratados": 3133,
+      "desistencias": 2896,
+      "taxa_contratacao": 0.0613,
+      "taxa_desistencia": 0.0567
+    },
+    {
+      "sap": "Vaga SAP",
+      "prospects": 2657,
+      "contratados": 71,
+      "desistencias": 90,
+      "taxa_contratacao": 0.0267,
+      "taxa_desistencia": 0.0339
+    }
+  ],
+  "por_ingles": [
+    {
+      "nivel_ingles": "Nenhum",
+      "prospects": 12487,
+      "contratados": 1560,
+      "desistencias": 612,
+      "taxa_contratacao": 0.1249,
+      "taxa_desistencia": 0.049
+    },
+    {
+      "nivel_ingles": "Intermediário",
+      "prospects": 5433,
+      "contratados": 263,
+      "desistencias": 396,
+      "taxa_contratacao": 0.0484,
+      "taxa_desistencia": 0.0729
+    },
+    {
+      "nivel_ingles": "Básico",
+      "prospects": 18873,
+      "contratados": 781,
+      "desistencias": 986,
+      "taxa_contratacao": 0.0414,
+      "taxa_desistencia": 0.0522
+    },
+    {
+      "nivel_ingles": "Técnico",
+      "prospects": 772,
+      "contratados": 31,
+      "desistencias": 61,
+      "taxa_contratacao": 0.0402,
+      "taxa_desistencia": 0.079
+    },
+    {
+      "nivel_ingles": "Avançado",
+      "prospects": 10045,
+      "contratados": 374,
+      "desistencias": 613,
+      "taxa_contratacao": 0.0372,
+      "taxa_desistencia": 0.061
+    },
+    {
+      "nivel_ingles": "Fluente",
+      "prospects": 6125,
+      "contratados": 195,
+      "desistencias": 318,
+      "taxa_contratacao": 0.0318,
+      "taxa_desistencia": 0.0519
+    }
+  ]
+}
