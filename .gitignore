@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+models/hf/
+models/encoder/
+reports/train.log
+.gradio/
+.env
+credentials*.json
+token*.json
